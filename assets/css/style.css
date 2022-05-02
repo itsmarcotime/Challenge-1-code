@@ -32,7 +32,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: black;
 }
 
 header nav {
@@ -92,6 +92,15 @@ header nav ul li {
     color: #ffffff;
 }
 
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +108,15 @@ header nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -110,26 +128,8 @@ header nav ul li {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .social-media-marketing h2 {
@@ -156,27 +156,7 @@ header nav ul li {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -187,10 +167,30 @@ header nav ul li {
     max-width: 150px;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img {
@@ -198,9 +198,9 @@ header nav ul li {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end benefit */
 
-
-
+/* start footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -211,3 +211,4 @@ header nav ul li {
 .footer h2 {
     font-size: 20px;
 }
+/* end footer */
