@@ -73,16 +73,6 @@ header nav ul li {
     margin-left: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,6 +84,8 @@ header nav ul li {
 
 .search-engine-optimization img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .search-engine-optimization h2 {
@@ -112,6 +104,8 @@ header nav ul li {
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right;
+    margin-left: 25px;
 }
 
 .online-reputation-management h2 {
@@ -130,6 +124,8 @@ header nav ul li {
 
 .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .social-media-marketing h2 {
